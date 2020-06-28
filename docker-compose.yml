@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python3:
+    build: .
+    container_name: 'python3_8'
+    tty: true
+    volumes:
+      - ./src:/workspace/src
